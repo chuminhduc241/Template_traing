@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+li{
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    position: relative;
+    z-index: 2;
+}
+.gird{
+    width: 1200px;
+    margin: 0 auto;
+}
+.isPrimary{
+    color: #ed563b;
+}
+.features{
+    background-color: white;
+    padding-top: 60px;
+    width: 100%;
+}
+.banner1{
+    position: relative;
+   
+}
+.banner1-body{
+    text-align:center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    font-size: 16px;
+    line-height: 20px;
+}
+.banner1-body h1{
+    font-weight: 900;
+}
+.box{
+    display: flex;
+    padding: 30px;
+   
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.box img{
+    margin-right: 10px;
+}
+.btnn{
+    border: none;
+    background-color: #ed563b;
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    font-size: 16px;
+}
+.box:last-child{
+    text-align: center;
+    justify-content: center;
+    background-color: #ed563b;
+    color: white;
+    padding: 26px;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    background-color:#888888;
+    width: 100%;
+    
+}
+.nav-link{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.navbar-brand{
+    color: white;
+}
+.video{
+    position: relative;
+    width: 100%;
+    
+    z-index: 2;
+}
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: 900;
+    width: 80%;
+}
+.caption h2{
+    margin-bottom: 40px;
+    font-size: 70px;
+    color: white;
+    text-transform: uppercase;
+}
+video{
+    width: 100%;
+}
+.banner1{
+    width: 100%;
+    overflow: hidden;
+}
+.banner2{
+    width: 100%;
+    overflow: hidden;
+}
+.register{
+  background-image: url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg);
+  padding: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.aa ul{
+    display: flex;
+    flex-direction: row;
+
+}
+.aa ul li a{
+    padding: 20px;
+    display: block;
+}
+
+.tongle i{
+    font-size: 18px;
+    color: white;
+    
+}
+.tongle{
+    display: none;
+}
+
+  @media screen and ( max-width: 992px) {
+    .banner1-body h1{
+         font-size: 16px;
+    }
+    .menu{
+        
+        align-items: center;
+        height: 120px;
+    }
+    .gird{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .logo h1{
+        font-size: 24px;
+       
+    }
+    .aa ul li a{
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 24px;
+    } 
+    .aa{
+        position: absolute;
+        top: 60%;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        height: 100px;
+        background-color: #888888;
+        height: auto;
+        z-index: 5;
+        padding-bottom: 20px;
+       
+    }
+    .aa ul {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+    @media screen and (max-width: 768px) {
+        .banner1-body h1{
+             font-size: 14px;
+        }
+        .banner1-body{
+            width: 100%;
+        }
+        .mm{
+            margin-top: 30px;
+        }
+        .register{
+         padding: 6px;
+       }
+       .logo{
+           display: block;
+           
+       }
+       .logo h1{
+           font-size: 24px;
+       }
+       .menu{
+           width: 100%;
+           justify-content: space-between;
+       }
+       .aa{
+           display: none;
+       }
+       .tongle{
+           display: block;
+       }
+     
+     
+     
+       }
+       @media screen and (max-width: 1000px) {
+        .menu{
+        
+            align-items: center;
+            height: 120px;
+        }
+        .gird{
+            width: 100%;
+            padding: 0 30px;
+        }
+        .logo h1{
+            font-size: 24px;
+           
+        }
+        .aa ul li a{
+            display: block;
+            padding: 10px;
+            font-size: 16px;
+            line-height: 24px;
+        } 
+        .aa{
+            position: absolute;
+            top: 60%;
+            left: 0px;
+            width: 100%;
+            text-align: center;
+            height: 100px;
+            background-color: #888888;
+            height: auto;
+            z-index: 5;
+            padding-bottom: 20px;
+           
+        }
+        .aa{
+            display: none;
+        }
+        .tongle{
+            display: block;
+        }
+    }
+    
+   
+   @media screen and (max-width: 576px) {
+    .gird{
+        width: 100%;
+    }
+    .banner1-body{
+        display: none;
+    }
+   }
